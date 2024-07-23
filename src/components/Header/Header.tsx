@@ -8,7 +8,7 @@ export default function Header() {
       <AppBar position="fixed">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Think Inside - My Life Tracker
+             Think Inside - My Life Tracker
           </Typography>
           <Profile />
         </Toolbar>
