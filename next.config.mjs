@@ -5,14 +5,14 @@ const nextConfig = {
     experimental: {
         reactCompiler: true,
     },
-      logging: {
+    logging: {
         fetches: {
           fullUrl: true,
         },
-      },
-      poweredByHeader: false,
-      productionBrowserSourceMaps: true,
-      reactStrictMode: true,
+    },
+    poweredByHeader: false,
+    productionBrowserSourceMaps: true,
+    reactStrictMode: true,
 };
 
 export default nextConfig;

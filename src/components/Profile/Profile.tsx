@@ -8,7 +8,9 @@ export default function Profile() {
     const { user, error, isLoading } = useUser();
 
     if (isLoading) return <Skeleton variant="circular" width={40} height={40} />
+    
     if (error) return <div>{error.message}</div>
+
     if (!user) {
         return (
             <Button color="inherit">
