@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Stack, Typography } from "@mui/material";
 import Header from "@/components/Header/Header";
 import GoogleMap from "@/components/Map/Map";
-
+import { YouTubeEmbed } from '@next/third-parties/google';
 
 export default function Home() {
   return (
@@ -17,6 +17,11 @@ export default function Home() {
             Where Have I Been? Where Am I Going?
           </Typography>
           <GoogleMap />
+
+          <Typography variant="h2" textAlign="center">
+            A Typical Day in My Life
+          </Typography>
+          <YouTubeEmbed videoid="FgutW7A8sAY" height={405} width={600} playlabel="A Day In Life of A Software Engineer" />
         </Stack>
       </main>
     </>
