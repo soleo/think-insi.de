@@ -31,7 +31,7 @@ export default function RootLayout({
         <AppRouterCacheProvider options={{ key: 'css' }}>
           <body className={roboto.className}>
             <ThemeProvider theme={theme}>
-            {children}
+              {children}
             </ThemeProvider>
             <Analytics />
             <SpeedInsights />
