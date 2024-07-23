@@ -4,7 +4,6 @@
 const nextConfig = {
     experimental: {
         reactCompiler: true,
-        typedRoutes: true,
     },
       logging: {
         fetches: {
