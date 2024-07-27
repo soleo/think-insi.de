@@ -7,11 +7,13 @@ const roboto = Roboto({
   subsets: ['latin'],
   display: 'swap',
 });
+
 const bigShoulders = Big_Shoulders_Display({
   weight: ['300', '400', '500', '700'],
   subsets: ['latin'],
   display: 'swap',
 });
+
 const theme = createTheme({
   typography: {
     fontFamily: roboto.style.fontFamily,
