@@ -8,7 +8,7 @@ export default function NotFound() {
   const domain = headersList.get('host')
 
   return (
-    <Stack padding={10} justifyContent={'center'} justifyItems={'center'} sx={{ height: "100vh", textAlign: "center", margin: "0 auto"}}>
+    <Stack padding={10} justifyContent={'center'} justifyItems={'center'} sx={{ textAlign: "center", margin: "0 auto"}}>
       <Typography variant='h1'>{'Oops, looks like you\'ve stumbled into a parallel universe!'}</Typography>
       <Box sx={{margin: "0 auto"}}>
         <Image src="/cats-dogs.webp" alt="Cats and Dogs in Space" width={1200} height={686} priority={true} />
