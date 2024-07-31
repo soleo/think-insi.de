@@ -21,7 +21,7 @@ export default function Profile() {
   return (
     user && (
       <Stack flexDirection={'row'}>
-        <Avatar src={user.picture!} alt={user.name!} />
+        <Avatar src={`https://api.multiavatar.com/${user.name}.png`} alt={user.name!} />
         <Button color="inherit">
           <Link href="/api/auth/logout">Logout</Link>
         </Button>

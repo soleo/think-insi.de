@@ -10,6 +10,7 @@ export default function Home() {
       <Header />
       <main>
         <Stack spacing={2} padding={4} flex={1} alignContent={"center"} alignItems={"center"} paddingTop={10}>
+          <Image src={"https://api.multiavatar.com/XinjiangShao.svg"} alt="Xinjiang Avatar" width={300} height={300} />
           <Typography variant="h1" textAlign="center">My Life Tracker</Typography>
           <Image src="/illustration.webp" alt="Think Inside Illustration" width={1200} height={686} priority={true} />
 
