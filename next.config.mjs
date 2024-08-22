@@ -14,6 +14,7 @@ const nextConfig = {
   poweredByHeader: false,
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
+  output: "standalone",
 };
 
 export default nextConfig;
